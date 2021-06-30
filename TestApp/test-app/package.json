@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "mv ./build/* ../wwwroot",
+    "postbuild": "rm -rf ../wwwroot && mkdir ../wwwroot && mv ./build/* ../wwwroot",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

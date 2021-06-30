@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tEtIlUE2K63qXGWTag7V+sLgU2kb0EqSRCtA7E/5PGUZPE3KqBoZjP/Yb6qo58tcMemRJ6VOEdP1JKVYOf6vqQ==",
+  "success": true,
+  "projectFilePath": "/Users/nathanrash/Code/test-app/TestApp/TestApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/nathanrash/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,50 @@
+$white: #fee;
+$black: #111;
+$dark-gray: #222;
+
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: $black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 12px;
+}
+
+header {
+  padding: 24px;
+  background-color: $dark-gray;
+}
+
+.white {
+  color: $white;
+}

@@ -1,6 +1,6 @@
-$white: #fee;
+$white: rgba(245, 245, 245, 1);
 $black: #111;
-$dark-gray: #222;
+$dark-gray: rgba(33, 33, 33, 1);
 
 * {
   position: relative;
@@ -47,4 +47,38 @@ header {
 
 .white {
   color: $white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px;
+}
+
+input {
+  max-width: 300px;
+  padding: 12px;
+  background-color: $white;
+  border: solid 1px $dark-gray;
+  border-radius: 8px;
+  color: $dark-gray;
+}
+
+button {
+  padding: 12px;
+  background-color: $dark-gray;
+  border: 0;
+  border-radius: 8px;
+
+  color: $white;
+
+  cursor: pointer;
+
+  transition: background-color 300ms ease;
+
+  &:hover {
+    background-color: $black;
+  }
 }

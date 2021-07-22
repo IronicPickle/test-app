@@ -41,7 +41,7 @@ namespace TestApp {
 
                 endpoints.MapGet("/test", async context => await context.Response.WriteAsync("Test"));
 
-                endpoints.MapPost("/send", async context => {
+                endpoints.MapPost("/test", async context => {
                     var req = context.Request;
                     var body = await Utils.ParseBody(req.Body);
                     
